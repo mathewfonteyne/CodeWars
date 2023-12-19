@@ -14,3 +14,6 @@ var summation = function (num) {
     return num + summation(num - 1);
   }
 }
+
+// console.log to see on local machine
+console.log(summation(8)); // 36
